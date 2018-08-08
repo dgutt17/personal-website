@@ -7,15 +7,22 @@ body{
     background: #eee;  
 }
 
+.websiteTitle{
+    text-align: center;
+    position: relative;
+    top: 200px
+}
+
 .wrapper{
     width: 100%;
     max-width: 1900px;
     margin: 0 auto;
 }
 
-/* menu base style */
+/*menu base style */
+
 nav{
-    background: #333
+    background: black
 }
 
 nav ul{
@@ -29,17 +36,49 @@ nav li {
     color: #fff;
     display: block;
     padding: 10px;
-}
+} */
 
 nav li:hover{
-    background-color: #555;
+    background-color: #333;
 }
+
+nav a{
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #fff;
+    text-decoration: none;
+} 
+
+/* social menu */
+
+/* a.github{
+    background: url('/public/github2.png') no-repeat center;
+    background-size: 80%
+} */
+
+.linkedin a{
+    background: url('/linkedin4.jpg') no-repeat center;
+    /* background-size: 80% */
+}
+
+/* a.email{
+    background: url('/public/email2.png') no-repeat center;
+    background-size: 80%
+} */
+
+/* .social a{
+    text-indent: -1
+} */
 
 /* flex styles */
 
 @media screen and (min-width: 768px){
     nav ul{
         display: flex;
+        justify-content: center;
     }
     nav li{
         flex: 1 1 0
@@ -47,5 +86,6 @@ nav li:hover{
 
     nav{
         display: flex;
+        justify-content: space-between;
     }
-}
+} 

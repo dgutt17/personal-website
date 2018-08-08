@@ -9,7 +9,12 @@ export default class HomePage extends Component {
 
     render(){
         return (
-            <h1>Hello World!</h1> 
+            <div className="websiteTitle">
+                <h1>
+                    <div>Hello, I'm Daniel Gutt.</div>
+                    <div>I'm a fullstack software engineer.</div>
+                </h1> 
+            </div>
         )
     }
 }
