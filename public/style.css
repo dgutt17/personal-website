@@ -22,7 +22,7 @@ body{
 /*menu base style */
 
 nav{
-    background: black
+    background: black;
 }
 
 nav ul{
@@ -36,7 +36,7 @@ nav li {
     color: #fff;
     display: block;
     padding: 10px;
-} */
+} 
 
 nav li:hover{
     background-color: #333;
@@ -50,28 +50,34 @@ nav a{
 nav a:hover{
     color: #fff;
     text-decoration: none;
+    /* font-size: 20px */
 } 
+
+.aboutWrapper{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.profileImg{
+    position: relative;
+    top: 200px;
+    border-radius: 50%;
+    align-self: center
+    /* padding: 0;
+    margin: 0 0 */
+}
+
+.aboutParagraph{
+    position: relative;
+    top: 250px;
+    flex: wrap;
+    margin: 0 100px;
+
+}
 
 /* social menu */
 
-/* a.github{
-    background: url('/public/github2.png') no-repeat center;
-    background-size: 80%
-} */
-
-.linkedin a{
-    background: url('/linkedin4.jpg') no-repeat center;
-    /* background-size: 80% */
-}
-
-/* a.email{
-    background: url('/public/email2.png') no-repeat center;
-    background-size: 80%
-} */
-
-/* .social a{
-    text-indent: -1
-} */
 
 /* flex styles */
 

@@ -20,9 +20,9 @@ export default class NavBar extends Component {
                         <li><Link to={'/contact'}>Contact</Link></li>
                     </ul>
                     <ul className='social'>
-                        <li className='github'><a>Github</a></li>
-                        <li className='linkedin'><a>LinkedIn</a></li>
-                        <li className='email'><a>Gmail</a></li>
+                        <li className='github'><a href="https://github.com/dgutt17">Github</a></li>
+                        <li className='linkedin'><a href="https://www.linkedin.com/in/danielgutt/">LinkedIn</a></li>
+                        <li className='email'><a href="dgutt10@gmail.com">Gmail</a></li>
                     </ul>
                 </nav>
             </div>
