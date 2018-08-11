@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { connect } from 'react-redux'
+import {addAboutThunk} from '../store'
 
 
 export default class About extends Component {
@@ -6,6 +8,10 @@ export default class About extends Component {
         super();
         this.state ={}
     }
+
+    // componentDidMount(){
+    //     this.props.displayAbout()
+    // }
 
     render(){
         return (
@@ -26,3 +32,19 @@ export default class About extends Component {
         )
     }
 }
+
+
+// const mapStateToProps = state => {
+//     return {
+//         newAbout: state.newAbout
+//     }
+// }
+
+// const mapDispatchToProps = dispatch => {
+//     return {
+//         displayAbout: () => {
+//             dispatch(addAboutThunk())
+//         }
+//     }
+// }
+// export default connect(mapStateToProps, mapDispatchToProps)(About)
