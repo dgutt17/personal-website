@@ -56,6 +56,18 @@ export default class Portfolio extends Component {
 
                 </div>
             </div>
+            <div className="card product-card" style={style.component}>
+                <img className="card-img-top" src={'img/construction.jpg'} alt={'Test'} />
+                <div className="card-body">
+                    <h5>
+                        <a href=''>Fresh Tomatoes</a>
+                    </h5>
+
+                    <p className="card-text">Summary:</p>
+                    <p className="card-text">Lorem ipsum dolar site emit</p>
+
+                </div>
+            </div>
             </div>
         )
     }

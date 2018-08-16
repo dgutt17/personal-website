@@ -15,7 +15,7 @@ export default class NavBar extends Component {
                 <nav id='navbar'>
                     <ul>
                         <li id='listItem'><Link to={'/'}>Home</Link></li>
-                        <li id='listItem'><Link to={'/test'}>About</Link></li>
+                        <li id='listItem'><Link to={'/about'}>About</Link></li>
                         <li id='listItem'><Link to={'/portfolio'}>Portfolio</Link></li>
                         <li id='listItem'><Link to={'/contact'}>Contact</Link></li>
                     </ul>

@@ -7,10 +7,22 @@ body{
     background: #eee;  
 }
 
+.homeWrapper{
+    height: 1500px;
+    align-content: center;
+    background-image: url('img/glacier3.jpg')
+}
+
+
+
 .websiteTitle{
     text-align: center;
     position: relative;
-    top: 200px
+    top: 150px;
+    opacity: 0;
+    animation-name:topFadeIn;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
 }
 
 #wrapper{
@@ -23,6 +35,7 @@ body{
 
 #navbar{
     background: black;
+    padding: 20px 50px 40px 50px;
 }
 
 #navbar ul{
@@ -31,30 +44,37 @@ body{
     margin: 0 0
 }
 
-#navbar #listItem {
+#navbar #listItem a {
     text-decoration: none;
     text-align: center;
     color: #fff;
     display: block;
     padding: 5px 5px 10px 5px;
+    transition: color 0.7s, transform 1s 0.7s;
 } 
 
-#navbar #listItem:hover{
+/* #navbar #listItem:hover{
     background-color: #333;
-}
+} */
 
 #navbar a{
-    color: #fff;
+    /* color: #fff; */
     text-decoration: none;
     vertical-align: center;
-    /* font-size: 20px */
+    font-size: 25px;
+    /* transition: 0.7s */
 }
 
-#navbar a:hover{
-    color: #fff;
+/* #navbar a:hover{
+    color: #00CED1;
     text-decoration: none;
     /* font-size: 20px */
-} 
+/*}*/ 
+
+#navbar #listItem a:hover{
+    transform: rotate(360deg);
+    color: #00CED1;
+}
 
 .aboutWrapper{
     display: flex;
@@ -64,18 +84,28 @@ body{
 
 .profileImg{
     position: relative;
-    top: 200px;
+    top: 100px;
     border-radius: 50%;
-    align-self: center
+    align-self: center;
+    opacity: 0;
+    animation: rightFadeIn;
+    animation-duration: 3s;
+    animation-fill-mode: forwards
+
     /* padding: 0;
     margin: 0 0 */
 }
 
 .aboutParagraph{
     position: relative;
-    top: 250px;
+    top: 150px;
     flex: wrap;
     margin: 0 100px;
+    opacity: 0;
+    animation: rightFadeIn;
+    animation-delay: 3s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards
 
 }
 
@@ -100,8 +130,34 @@ body{
 
 .product-card{
     position: relative;
-    top: 200px;
+    top: 125px;
     margin: 20 75;
+    opacity: 0;
+    animation: fadeIn;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+#contactWrapper{
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    /* flex-wrap: wrap; */
+    /* align-items: center */
+}
+
+#contactWrapper #contactTitle{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 100px;
+}
+
+#contactWrapper .contactItem{
+    display: flex;
+    position: relative; 
+    top: 150px;
+    margin: 10px 0px;
 }
 
 
@@ -128,4 +184,60 @@ body{
         display: flex;
         justify-content: space-between;
     }
+
+    #contactWrapper{
+        display: flex;
+        flex-direction: column;
+        font-size: 40px;
+    }
+
+    #contactWrapper #contactTitle{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: 100px;
+    }
+    
+    #contactWrapper .contactItem{
+        display: flex;
+        position: relative;
+        top: 150px;
+        margin: 30px 100px;
+    }
 } 
+
+@keyframes topFadeIn{
+    0% {
+        position: relative;
+        top: 0;
+        opactity: 0
+    }
+    100%{
+        position: relative;
+        top: 200px;
+        opacity: 1;
+    }
+}
+
+@keyframes rightFadeIn{
+    0% {
+        position: relative;
+        right: -100px;
+        opactity: 0
+    }
+    100%{
+        position: relative;
+        right: 20px;
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn{
+    0%{
+        opacity: 0
+    }
+
+    100%{
+        opacity: 1
+    }
+}
