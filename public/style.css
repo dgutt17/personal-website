@@ -12,7 +12,7 @@ body{
 .homeWrapper{
     height: 600px;
     align-content: center;
-    background-image: url('img/glacier8.jpg')
+    background-image: url('/img/glacier8.jpg')
 }
 
 .websiteTitle{
@@ -218,7 +218,7 @@ body{
 
 @media screen and (min-width: 1725px){
     .homeWrapper{
-        background-image: url('img/glacier7.jpg')
+        background-image: url('/img/glacier7.jpg')
     }
 }
 
@@ -234,7 +234,7 @@ body{
     .homeWrapper{
         height: 900px;
         align-content: center; 
-        background-image: url('img/glacier6.jpg')
+        background-image: url('/img/glacier6.jpg')
     }
     #navbar ul{
         display: flex;
