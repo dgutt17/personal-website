@@ -17,6 +17,8 @@ export default class Portfolio extends Component {
 
     render() {
         return (
+            <div>
+            <h1 className='portfolioTitle'>Projects</h1>
             <div className="portfolioWrapper">
             <div className="card product-card" style={style.component}>
                 <img className="card-img-top" src={'img/favicon.ico'} alt={'Test'} />
@@ -67,6 +69,7 @@ export default class Portfolio extends Component {
                     <p className="card-text">Lorem ipsum dolar site emit</p>
 
                 </div>
+            </div>
             </div>
             </div>
         )
