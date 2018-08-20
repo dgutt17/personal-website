@@ -87,7 +87,7 @@ body{
     flex-direction: column;
 }
 
-.profileImg{
+.profileImg {
     position: relative;
     top: 100px;
     border-radius: 50%;
@@ -101,12 +101,13 @@ body{
     margin: 0 0 */
 }
 
+
 .aboutParagraph{
     display: flex;
     flex-direction: column;
     justify-content: center;
     position: relative;
-    top: 150px;
+    top: 200px;
     /* flex: wrap; */
     margin: 0 100px;
     opacity: 0;
@@ -141,6 +142,33 @@ body{
 .knowledgable{
     padding: 10px 0 0 20px;
 }
+
+.navdot {
+    text-align: center;
+
+}
+.navdot span {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: red;
+    display: inline-block;
+    margin: 0 5px;
+    top: 150px;
+    position: relative;
+    opacity: 0;
+    animation: rightFadeIn;
+    animation-duration: 3s;
+    animation-fill-mode: forwards
+}
+
+#clickedNavDot{
+    background: blue
+}
+
+
+
+
 
 /* Portfolio Page Styling */
 
@@ -362,5 +390,15 @@ body{
     }
     to{
         transform: rotate(360deg)
+    }
+}
+
+@keyframes slide{
+    0%{
+        transform: translate3d(0, 0 ,0)
+    }
+
+    100%{
+        transform: translate3d(-300, 0, 0)
     }
 }
