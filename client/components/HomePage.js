@@ -10,7 +10,7 @@ export default class HomePage extends Component {
     render(){
         return (
             <div className='homeWrapper'>
-                <img src='/img/glacier6.jpg' />
+                <img src='/img/glacier7.jpg' />
                 <div className="websiteTitle">
                     <h1>
                         <div>Hello, I'm Daniel Gutt.</div>

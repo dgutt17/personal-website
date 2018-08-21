@@ -11,14 +11,26 @@ body{
 /* Home Page Styling */
 .homeWrapper{
     position: relative;
-    height: 0;
+    /* height: 0; */
     align-content: center;
+    /* height: 2000px */
     /* background-image: url('/img/glacier8.jpg') */
 }
 
 .homeWrapper img{
-    position: absolute;
+    /* position: absolute;
     width: 100%;
+    height: auto; */
+    min-height: 100%;
+    min-width: 1024px;
+
+    width: 100%;
+    height: auto;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
 }
 
 .websiteTitle{
@@ -151,7 +163,7 @@ body{
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    background: red;
+    background: #708090;
     display: inline-block;
     margin: 0 5px;
     top: 150px;
@@ -162,8 +174,12 @@ body{
     animation-fill-mode: forwards
 }
 
+.navdot span:hover{
+    background: #FF8C00;
+}
+
 #clickedNavDot{
-    background: blue
+    background: #00CED1
 }
 
 
@@ -258,10 +274,14 @@ body{
 }
 
 
-
-
-
 /* Media Queries */
+
+@media screen and (max-width: 1024px){
+    .homeWrapper img{
+        left: 50%;
+        margin-left: -512px
+    }
+}
 
 @media screen and (min-width: 850px) {
     
@@ -326,15 +346,6 @@ body{
     }
 } 
 
-@media screen and (min-width: 1725px){
-    .homeWrapper img{
-        opacity: 0;
-    }
-    .homeWrapper{
-        height: 1500;
-        background-image: url('/img/glacier7.jpg')
-    }
-}
 /* Key Frames for animations  */
 @keyframes topFadeIn{
     0% {
