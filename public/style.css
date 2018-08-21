@@ -22,7 +22,7 @@ body{
     width: 100%;
     height: auto; */
     min-height: 100%;
-    min-width: 1024px;
+    min-width: 1200px;
 
     width: 100%;
     height: auto;
@@ -276,7 +276,16 @@ body{
 
 /* Media Queries */
 
+
+@media screen and (max-width: 1200px), (min-width: 1024px){
+    .homeWrapper{
+        height: 1200px
+    }
+}
 @media screen and (max-width: 1024px){
+    .homeWrapper{
+        height: auto
+    }
     .homeWrapper img{
         left: 50%;
         margin-left: -512px
