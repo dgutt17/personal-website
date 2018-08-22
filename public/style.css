@@ -57,7 +57,7 @@ body{
 
 #navbar{
     background: black;
-    padding: 20px 50px 40px 50px;
+    padding: 20px 50px 35px 50px;
 }
 
 #navbar ul{
@@ -74,7 +74,47 @@ body{
     padding: 5px 5px 10px 5px;
     /* transition: color 0.7s, transform 1s 5s; */
     transition: 0.7s
-} 
+}
+
+.github{
+    background: url('/img/github6.png') no-repeat center;
+    background-size: 40px;
+    /* transition: 0.7s; */
+}
+
+.linkedin{
+    background: url('/img/linkedin.png') no-repeat center;
+    background-size: 70px;
+    transition: 0.7s;
+    margin-top: 10px;
+    /* transition: 0.7s */
+}
+
+.github:hover{
+    /* background-color: #00CED1; */
+    animation-name: spin;
+    animation-delay: 3s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards
+}
+
+.linkedin:hover{
+    /* background-color: #00CED1; */
+    animation-name: spin;
+    animation-delay: 3s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards
+}
+
+#social{
+    margin-left: 50px
+}
+
+#social a{
+    text-indent: -10000px;
+}
+
+
 
 #navbar a{
     text-decoration: none;
@@ -355,6 +395,15 @@ body{
         position: relative;
         /* top: 150px; */
         margin: 30px 100px;
+    }
+
+    .linkedin{
+        margin-top: 10px;
+        margin-left: 30px
+    }
+
+    .github{
+        background-size: 45px;
     }
 } 
 
