@@ -57,7 +57,7 @@ body{
 
 #navbar{
     background: black;
-    padding: 20px 50px 35px 50px;
+    padding: 40px 50px 35px 50px;
 }
 
 #navbar ul{
@@ -246,7 +246,8 @@ body{
 }
 
 .card {
-    margin-bottom: 2em;
+    margin-bottom: 4em;
+    margin: 0 40px
 }
 
 .portfolioWrapper{
@@ -369,6 +370,8 @@ body{
     }
     
     #navbar{
+        height: 130px;
+        padding: 20px 50px 20px 50px;
         display: flex;
         justify-content: space-between;
     }
