@@ -23,30 +23,16 @@ body{
 
 }
 
-/* .homeWrapper img{
-    position: absolute;
-    width: 100%;
-    height: auto;
-    /* min-height: 100%;
-    min-width: 1024px;
-
-    width: 100%;
-    height: auto;
-
-    position: absolute;
-    top: 0;
-    left: 0; */
-
-/* } */ 
-
-.websiteTitle{
+.websiteTitle h1{
     text-align: center;
     color: black;
+    font-size: 40px;
+    font-weight: bold;
     position: relative;
     /* top: 0px; */
     opacity: 0;
     animation-name:topFadeInShallow;
-    animation-duration: 3s;
+    animation-duration: 1.5s;
     animation-fill-mode: forwards;
 }
 
@@ -152,7 +138,7 @@ body{
     align-self: center;
     opacity: 0;
     animation: rightFadeIn;
-    animation-duration: 3s;
+    animation-duration: 1.5s;
     animation-fill-mode: forwards
 
     /* padding: 0;
@@ -170,8 +156,7 @@ body{
     margin: 0 100px;
     opacity: 0;
     animation: rightFadeIn;
-    animation-delay: 3s;
-    animation-duration: 3s;
+    animation-duration: 1.5s;
     animation-fill-mode: forwards
 
 }
@@ -216,7 +201,7 @@ body{
     position: relative;
     opacity: 0;
     animation: rightFadeIn;
-    animation-duration: 3s;
+    animation-duration: 1.5s;
     animation-fill-mode: forwards
 }
 
@@ -240,7 +225,7 @@ body{
     text-align: center;
     opacity: 0;
     animation: fadeIn;
-    animation-duration: 3s;
+    animation-duration: 1.5s;
     animation-fill-mode: forwards;
 }
 
@@ -269,7 +254,7 @@ body{
     margin: 20 75;
     opacity: 0;
     animation: fadeIn;
-    animation-duration: 3s;
+    animation-duration: 1.5s;
     animation-fill-mode: forwards;
 }
 
@@ -282,7 +267,7 @@ body{
     font-size: 25px;
     opacity: 0;
     animation: fadeIn;
-    animation-duration: 3s;
+    animation-duration: 1.5s;
     animation-fill-mode: forwards;
     /* flex-wrap: wrap; */
     /* align-items: center */
@@ -322,25 +307,6 @@ body{
 
 
 /* Media Queries */
-
-
-/* @media screen and (max-width: 1200px), (min-width: 1024px){
-    .homeWrapper{
-        height: 1200px
-    }
-    .homeWrapper img{
-        min-width: 1200px
-    } 
-} 
-@media screen and (max-width: 1024px){
-    .homeWrapper{
-        height: auto
-    }
-    .homeWrapper img{
-        left: 50%;
-        margin-left: -512px
-    }
-} */
 
 @media screen and (min-width: 850px) {
     
@@ -417,18 +383,6 @@ body{
 } 
 
 /* Key Frames for animations  */
-@keyframes topFadeIn{
-    0% {
-        position: relative;
-        top: 0;
-        opactity: 0
-    }
-    100%{
-        position: relative;
-        top: 150px;
-        opacity: 1;
-    }
-}
 
 @keyframes topFadeInShallow{
     0% {
@@ -438,7 +392,7 @@ body{
     }
     100%{
         position: relative;
-        top: 50px;
+        top: 80px;
         opacity: 1;
     }
 }
