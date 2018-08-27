@@ -49,7 +49,7 @@ body{
 
 #navbar{
     background: black;
-    padding: 40px 50px 35px 50px;
+    padding: 40px 50px 20px 50px;
 }
 
 #navbar ul{
@@ -133,7 +133,7 @@ body{
 
 .profileImg {
     position: relative;
-    top: 100px;
+    top: 30px;
     border-radius: 50%;
     align-self: center;
     opacity: 0;
@@ -151,7 +151,7 @@ body{
     flex-direction: column;
     justify-content: center;
     position: relative;
-    top: 200px;
+    top: 120px;
     /* flex: wrap; */
     margin: 0 100px;
     opacity: 0;
@@ -197,7 +197,7 @@ body{
     background: #708090;
     display: inline-block;
     margin: 0 5px;
-    top: 150px;
+    top: 80px;
     position: relative;
     opacity: 0;
     animation: rightFadeIn;
@@ -303,6 +303,19 @@ body{
 
 #contactWrapper p:hover {
     color: #00CED1; 
+}
+
+.contactItem{
+    font-weight: bold;
+    font-size: 30px
+}
+
+.contactItem a{
+    font-weight: normal
+}
+
+.contactItem p{
+    font-weight: normal
 }
 
 
