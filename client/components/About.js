@@ -66,13 +66,18 @@ export default class About extends Component {
                 <div className="aboutParagraph">
                 <div className='aboutSection1'>
                     <div className='aboutTitle'>MY STORY</div>
-                    <p>I am a former attorney turned software engineer.
-                    One day I realized my favorite part of the day was my commute, and that certainly was not because of my 1 hour and 15 minute train ride.
-                    It was because I had started to teach myself how to code on my commute.
-                    I plunged into the world of software development first by teaching myself.
-                    Then I enrolled at Fullstack Academy of Code to further my training.
-                    I am interested in fullstack or backend work, and I have made several fullstack JavaScript applications.
-                As of right now, I am currently working on a movie recommendation engine.</p>
+                    <p>My name is Dan Gutt, and I am software engineer with a background in law and biology. 
+                    After practicing law in a firm that focused on Bankruptcy and Secured Transactions, I started thinking 
+                    about all the processes that could be automated in my office. Interestingly enough, this led to my experimentation with 
+                    writing code, initially in Python. It was there that I fell in love with the problem solving process that makes software engineering 
+                    such a rewarding and fascinating profession. Thus, I decided to begin a journey to change my career. Soon after I joined 
+                    Fullstack Academy of Code, an intensive 13 week software engineering bootcamp, where I become proficient in the 
+                    NERD stack, and where I built three separate applications. These projects included a mobile social media app that geolocated user 
+                    videos and images, a fun 2D single-player space shooter that resembles Atari's asteroids, and e-commerce web app that sold cars. 
+                    Now, I am currently working on a movie recommendation engine. 
+
+                    I enjoy all aspects of software development from the backend to the frontend, and I believe my programming skills, analytical abilities, 
+                    detail oriented nature, and understanding of computer fundamentals will make me a value added software engineer to any team.</p>
                 </div>
                 <div className='aboutSection2'>
                     <div className='aboutTitle'>TECHNICAL SKILLS</div>

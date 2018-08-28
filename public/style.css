@@ -265,7 +265,6 @@ body{
 #contactWrapper{
     display: flex;
     flex-direction: column;
-    font-size: 25px;
     opacity: 0;
     animation: fadeIn;
     animation-duration: 1.5s;
@@ -283,9 +282,12 @@ body{
 
 #contactWrapper .contactItem{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
     position: relative; 
     top: 100px;
-    margin: 10px 0px;
+    /* margin: 10px 0px; */
+    margin: 30px 100px;
 }
 
 #contactWrapper a {
@@ -294,9 +296,9 @@ body{
     transition: 0.7s
 }
 
-#contactWrapper p {
-    transition: 0.7s
-}
+/* #contactWrapper p {
+    transition: 0.7s;
+} */
 
 #contactWrapper a:hover {
     color: #00CED1; 
@@ -308,15 +310,19 @@ body{
 
 .contactItem{
     font-weight: bold;
-    font-size: 30px
+    font-size: 20px;
 }
 
 .contactItem a{
-    font-weight: normal
+    font-weight: normal;
 }
 
 .contactItem p{
-    font-weight: normal
+    font-weight: normal;
+}
+
+#contactTitle{
+    font-size: 30px
 }
 
 
@@ -384,6 +390,10 @@ body{
         position: relative;
         /* top: 150px; */
         margin: 30px 100px;
+    }
+
+    .contactItem{
+        font-size: 30px
     }
 
     .linkedin{
