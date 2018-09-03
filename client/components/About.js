@@ -57,11 +57,11 @@ export default class About extends Component {
 
         return (
             <div className="aboutWrapper">
-                <img className="profileImg" onClick={this.handleClick} src={this.state.profileImg} />
+                <img className="profileImg" src={this.state.profileImg} />
                 <div className='navdot'>
-                    <span id={this.state.currentPic === 1 ? 'clickedNavDot' : ''} onClick={() => this.setState({currentPic: 1, profileImg: this.state.profileOne})}></span>
+                    {/* <span id={this.state.currentPic === 1 ? 'clickedNavDot' : ''} onClick={() => this.setState({currentPic: 1, profileImg: this.state.profileOne})}></span>
                     <span id={this.state.currentPic === 2 ? 'clickedNavDot' : ''} onClick={() => this.setState({currentPic: 2, profileImg: this.state.profileTwo})}></span>
-                    <span id={this.state.currentPic === 3 ? 'clickedNavDot' : ''} onClick={() => this.setState({currentPic: 3, profileImg: this.state.profileThree})}></span>
+                    <span id={this.state.currentPic === 3 ? 'clickedNavDot' : ''} onClick={() => this.setState({currentPic: 3, profileImg: this.state.profileThree})}></span> */}
                 </div>
                 <div className="aboutParagraph">
                 <div className='aboutSection1'>
