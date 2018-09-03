@@ -20,8 +20,8 @@ export default class NavBar extends Component {
                         <li id='listItem'><Link to={'/contact'}>Contact</Link></li>
                     </ul>
                     <ul id='social'>
-                        <li className='github' id='listItem'><a href="https://github.com/dgutt17">Github</a></li>
-                        <li className='linkedin' id='listItem'><a href="https://www.linkedin.com/in/danielgutt/">LinkedIn</a></li>
+                        <li id='listItem' className='github'><a href="https://github.com/dgutt17">Github</a></li>
+                        <li id='listItem' className='linkedin'><a href="https://www.linkedin.com/in/danielgutt/">LinkedIn</a></li>
                     </ul>
                 </nav>
             </div>

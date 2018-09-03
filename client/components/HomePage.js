@@ -14,7 +14,7 @@ export default class HomePage extends Component {
                 <div className="websiteTitle">
                     <h1>
                         <div>Hello, I'm Daniel Gutt.</div>
-                        <div>I'm a fullstack software engineer.</div>
+                        <div>I'm a software engineer.</div>
                     </h1> 
                 </div>
             </div>
