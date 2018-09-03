@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux'
 import { addAboutThunk } from '../store'
 
-
 export default class About extends Component {
     constructor() {
         super();
@@ -58,11 +57,11 @@ export default class About extends Component {
         return (
             <div className="aboutWrapper">
                 <img className="profileImg" src={this.state.profileImg} />
-                <div className='navdot'>
-                    {/* <span id={this.state.currentPic === 1 ? 'clickedNavDot' : ''} onClick={() => this.setState({currentPic: 1, profileImg: this.state.profileOne})}></span>
+                {/* <div className='navdot'>
+                    <span id={this.state.currentPic === 1 ? 'clickedNavDot' : ''} onClick={() => this.setState({currentPic: 1, profileImg: this.state.profileOne})}></span>
                     <span id={this.state.currentPic === 2 ? 'clickedNavDot' : ''} onClick={() => this.setState({currentPic: 2, profileImg: this.state.profileTwo})}></span>
-                    <span id={this.state.currentPic === 3 ? 'clickedNavDot' : ''} onClick={() => this.setState({currentPic: 3, profileImg: this.state.profileThree})}></span> */}
-                </div>
+                    <span id={this.state.currentPic === 3 ? 'clickedNavDot' : ''} onClick={() => this.setState({currentPic: 3, profileImg: this.state.profileThree})}></span>
+                </div> */}
                 <div className="aboutParagraph">
                 <div className='aboutSection1'>
                     <div className='aboutTitle'>MY STORY</div>
@@ -70,14 +69,7 @@ export default class About extends Component {
                     After practicing law in a firm that focused on Bankruptcy and Secured Transactions, I started thinking 
                     about all the processes that could be automated in my office. Interestingly enough, this led to my experimentation with 
                     writing code, initially in Python. It was there that I fell in love with the problem solving process that makes software engineering 
-                    such a rewarding and fascinating profession. Thus, I decided to begin a journey to change my career. Soon after I joined 
-                    Fullstack Academy of Code, an intensive 13 week software engineering bootcamp, where I become proficient in the 
-                    NERD stack, and where I built three separate applications. These projects included a mobile social media app that geolocated user 
-                    videos and images, a fun 2D single-player space shooter that resembles Atari's asteroids, and e-commerce web app that sold cars. 
-                    Now, I am currently working on a movie recommendation engine. 
-
-                    I enjoy all aspects of software development from the backend to the frontend, and I believe my programming skills, analytical abilities, 
-                    detail oriented nature, and understanding of computer fundamentals will make me a value added software engineer to any team.</p>
+                    such a rewarding and fascinating profession.</p>
                 </div>
                 <div className='aboutSection2'>
                     <div className='aboutTitle'>TECHNICAL SKILLS</div>
@@ -86,14 +78,16 @@ export default class About extends Component {
                             <div>Proficient:</div>
                             <div>
                                 <ul>
-                                    <li>JavaScript</li>
-                                    <li>React</li>
-                                    <li>Redux</li>
-                                    <li>Node.js</li>
-                                    <li>Express</li>
-                                    <li>Sequelize</li>
-                                    <li>Git</li>
-                                    <li>Github</li>
+                                    <li><img src='/img/javascript.png'/></li>
+                                    <li><img src='/img/react.png' /></li>
+                                    <li><img src='/img/redux.png' /></li>
+                                    <li><img src='/img/node.png' /></li>
+                                    <li><img src='/img/express.png' /></li>
+                                    <li><img src='/img/sequelize.png' /></li>
+                                    <li><img src='/img/git.png' /></li>
+                                    <li><img src='/img/github4.png'/></li>
+                                    <li><img src='/img/html.png'/></li>
+                                    <li><img src='/img/css.png'/></li>
                                 </ul>
                             </div>
                         </div>
@@ -101,14 +95,12 @@ export default class About extends Component {
                             <div>Knowledgeable:</div>
                             <div>
                                 <ul>
-                                    <li>PostgreSQL</li>
-                                    <li>React Native</li>
-                                    <li>Mocha</li>
-                                    <li>Chai</li>
-                                    <li>Phaser.js</li>
-                                    <li>CSS</li>
-                                    <li>HTML</li>
-                                    <li>Python</li>
+                                    <li><img src='/img/postgresql.png'/></li>
+                                    <li><img src='/img/reactnative.png'/></li>
+                                    <li><img src='/img/mocha.png'/></li>
+                                    <li><img src='/img/chai.png'/></li>
+                                    <li><img src='/img/phaser.png'/></li>
+                                    <li><img src='/img/python.png'/></li>
                                 </ul>
                             </div>
                         </div>

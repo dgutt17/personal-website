@@ -207,7 +207,7 @@ body{
 }
 
 .techSkills{
-    display: flex;
+    /* display: flex; */
     justify-content: center
 }
 
@@ -215,8 +215,25 @@ body{
     padding: 10px 20px 0px 0;
 }
 
+.proficient ul{
+    list-style-type: none;
+}
+.proficient li{
+    display: inline;
+    padding: 10px
+}
+
 .knowledgable{
     padding: 10px 0 0 20px;
+}
+
+.knowledgable ul{
+    list-style-type: none;
+}
+
+.knowledgable li{
+    display: inline;
+    padding: 10px
 }
 
 .navdot {
