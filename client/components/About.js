@@ -56,24 +56,24 @@ export default class About extends Component {
 
         return (
             <div className="aboutWrapper">
-                <img className="profileImg" src={this.state.profileImg} />
-                {/* <div className='navdot'>
-                    <span id={this.state.currentPic === 1 ? 'clickedNavDot' : ''} onClick={() => this.setState({currentPic: 1, profileImg: this.state.profileOne})}></span>
-                    <span id={this.state.currentPic === 2 ? 'clickedNavDot' : ''} onClick={() => this.setState({currentPic: 2, profileImg: this.state.profileTwo})}></span>
-                    <span id={this.state.currentPic === 3 ? 'clickedNavDot' : ''} onClick={() => this.setState({currentPic: 3, profileImg: this.state.profileThree})}></span>
-                </div> */}
-                <div className="aboutParagraph">
-                <div className='aboutSection1'>
-                    <div className='aboutTitle'>MY STORY</div>
-                    <p>My name is Dan Gutt, and I am software engineer with a background in law and biology. 
-                    After practicing law in a firm that focused on Bankruptcy and Secured Transactions, I started thinking 
-                    about all the processes that could be automated in my office. Interestingly enough, this led to my experimentation with 
-                    writing code, initially in Python. It was there that I fell in love with the problem solving process that makes software engineering 
-                    such a rewarding and fascinating profession.</p>
+                <div className='aboutParagraph2'>
+                    <img className="profileImg" src={this.state.profileImg} />
+                    {/* <div className='navdot'>
+                        <span id={this.state.currentPic === 1 ? 'clickedNavDot' : ''} onClick={() => this.setState({currentPic: 1, profileImg: this.state.profileOne})}></span>
+                        <span id={this.state.currentPic === 2 ? 'clickedNavDot' : ''} onClick={() => this.setState({currentPic: 2, profileImg: this.state.profileTwo})}></span>
+                        <span id={this.state.currentPic === 3 ? 'clickedNavDot' : ''} onClick={() => this.setState({currentPic: 3, profileImg: this.state.profileThree})}></span>
+                    </div> */}
+                    <div className='aboutSection1'>
+                        <div className='aboutTitle'>MY STORY</div>
+                        <p>My name is Dan Gutt, and I am software engineer with a background in law and biology. 
+                        After practicing law in a firm that focused on Bankruptcy and Secured Transactions, I started 
+                        thinking about all the processes that could be automated in my office. 
+                        Interestingly enough, this led to my experimentation with writing code, initially in Python.</p>
+                    </div>
                 </div>
-                <div className='aboutSection2'>
-                    <div className='aboutTitle'>TECHNICAL SKILLS</div>
+                <div className="aboutParagraph">
                     <div className='techSkills'>
+                    <div className='aboutTitle'>TECHNICAL SKILLS</div>
                         <div className='proficient'>
                             <div>Proficient:</div>
                             <div>
@@ -105,7 +105,6 @@ export default class About extends Component {
                             </div>
                         </div>
                     </div>
-                </div>
             </div>
         </div>
         )
